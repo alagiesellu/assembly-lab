@@ -1,0 +1,8 @@
+Exercise 1)
+
+Suppose we have an array with starting address stored in $s0. We want to add the content of the first three elements, and put the result in the fourth element? 
+A[3] = A[2] + A[1] + A[0]
+
+Nice To Do;
+- Instead of having an array with 3 elements, define array size from user input.
+- Instead of adding all elements before the last and then store the result to last element, follow this algorithm instead; At every element through the array, store the addition of the previous elements.
